@@ -90,7 +90,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 	- SSH into the ELK-VM to verify the server is up and running.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-[]https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Linux/ELK-VM%20Docker%20PS.png
+![](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Linux/ELK-VM%20Docker%20PS.png)
 
 
 ### Target Machines & Beats
