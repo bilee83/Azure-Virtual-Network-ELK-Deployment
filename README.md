@@ -1,18 +1,18 @@
 # Azure-Virtual-Network-ELK-Deployment
 
 The files in this repository were used to configure the network depicted below
-[Project 1 Red-Team Network Diagram](https://user-images.githubusercontent.com/93458722/162332741-27e08b0c-16df-4a72-8493-f4d5f34287e3.png)
+[Project 1 Red-Team Network Diagram](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Diagram/Azure_Cloud_Virtual_Network_with_ELK_Deployment.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-- [Ansible Playbook]
-- [Ansible Hosts]
-- [Ansible Configuration]
-- [Ansible ELK Installation and VM Configuration]
-- [Ansible Filebeat Playbook]
-- [Ansible Filebeat Config file]
-- [Ansible Metricbeat Playbook]
-- [Ansible Metricbeat Config file]
+- [Ansible Playbook](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/my-playbook1.yml)
+- [Ansible Hosts](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/hosts.yml)
+- [Ansible Configuration](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/ansible.cfg)
+- [Ansible ELK Installation and VM Configuration](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/ansible.cfg)
+- [Ansible Filebeat Playbook](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/ELK_Stack/filebeat-playbook.yml)
+- [Ansible Filebeat Config file](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/filebeat-config.yml)
+- [Ansible Metricbeat Playbook](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/ELK_Stack/metricbeat-playbook.yml)
+- [Ansible Metricbeat Config file](https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Ansible/metricbeat-config.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -90,7 +90,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 	- SSH into the ELK-VM to verify the server is up and running.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
+https://github.com/bilee83/Azure-Virtual-Network-ELK-Deployment/blob/main/Linux/ELK-VM%20Docker%20PS.png
 
 
 ### Target Machines & Beats
